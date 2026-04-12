@@ -7,6 +7,7 @@ export type Project = {
   deployUrl?: string;
   images?: string[];
   logo?: string;
+  showMobileBadge?: boolean;
   tags: string[];
   technicalDetails: string[];
   mockup: "phone" | "browser";
@@ -27,6 +28,7 @@ export const projects: Project[] = [
       "Simulacao de frete baseada em peso e CEP.",
       "Interface mobile com React Native Paper e tipografia Montserrat.",
     ],
+    showMobileBadge: true,
     mockup: "phone",
   },
   {
@@ -35,6 +37,7 @@ export const projects: Project[] = [
     description:
       "Plataforma escalavel para geracao de descricoes de produtos otimizadas para SEO utilizando LLaMA 3.3 70B via Groq API.",
     videoUrl: "/media/Escritor_Seo.mp4",
+    deployUrl: "https://escritor-seo.vercel.app/",
     tags: ["Next.js 16", "Stripe", "Clerk", "Groq API", "Tailwind CSS v4"],
     technicalDetails: [
       "Sistema de assinaturas PRO com checkout e gestao via Stripe Customer Portal.",
@@ -43,6 +46,7 @@ export const projects: Project[] = [
       "Arquitetura SEO avancada com sitemap dinamico e metadados OpenGraph otimizados.",
       "Interface adaptavel com suporte nativo a Dark Mode e renderizacao Markdown.",
     ],
+    showMobileBadge: false,
     mockup: "phone",
   },
   {

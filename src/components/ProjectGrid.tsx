@@ -223,7 +223,8 @@ function PhoneMockup({
   tags,
   technicalDetails,
   videoUrl,
-}: Pick<Project, "tags" | "technicalDetails" | "videoUrl">) {
+  showMobileBadge = true,
+}: Pick<Project, "tags" | "technicalDetails" | "videoUrl" | "showMobileBadge">) {
   return (
     <motion.div initial="rest" whileHover="hover" className="relative">
       <div className="mx-auto max-w-[20rem]">
@@ -237,11 +238,13 @@ function PhoneMockup({
         >
           <div className="absolute left-1/2 top-3 z-20 h-5 w-28 -translate-x-1/2 rounded-full bg-zinc-800/90" />
 
-          <div className="absolute left-5 top-5 z-20 rounded-full border border-zinc-700 bg-zinc-900 px-2 py-0.5">
-            <span className="font-mono text-[10px] uppercase tracking-[0.16em] text-zinc-400">
-              Mobile-First
-            </span>
-          </div>
+          {showMobileBadge ? (
+            <div className="absolute left-5 top-5 z-20 rounded-full border border-zinc-700 bg-zinc-900 px-2 py-0.5">
+              <span className="font-mono text-[10px] uppercase tracking-[0.16em] text-zinc-400">
+                Mobile-First
+              </span>
+            </div>
+          ) : null}
 
           <div className="relative aspect-[384/832] overflow-hidden rounded-[2rem] border border-zinc-800 bg-black">
             <motion.video
@@ -340,6 +343,7 @@ export function ProjectGrid({ projects, className }: ProjectGridProps) {
                 videoUrl={project.videoUrl ?? ""}
                 tags={project.tags}
                 technicalDetails={project.technicalDetails}
+                showMobileBadge={project.showMobileBadge}
               />
             ) : (
               <BrowserMockup videoUrl={project.videoUrl} />
