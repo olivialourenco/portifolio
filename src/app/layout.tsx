@@ -14,8 +14,11 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://olivia-lourenco.vercel.app",
   ),
+  alternates: {
+    canonical: "/",
+  },
   title: "Olívia Lourenço | Dev FullStack",
   description:
     "Portfólio de Olívia Lourenço, Desenvolvedora FullStack focada em sistemas robustos e interfaces de alta performance.",
@@ -23,6 +26,7 @@ export const metadata: Metadata = {
     title: "Olívia Lourenço | Dev FullStack",
     description:
       "Portfólio de Olívia Lourenço com foco em Next.js, TypeScript e C# para criar sistemas robustos e interfaces de alta performance.",
+    url: "/",
     type: "website",
     locale: "pt_BR",
     siteName: "Olívia Portfólio",
