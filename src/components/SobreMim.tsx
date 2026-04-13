@@ -45,10 +45,12 @@ export function SobreMim() {
           Minha Trajetória
         </h2>
         <p className="max-w-4xl text-sm leading-relaxed text-muted md:text-base">
-        Minha jornada no desenvolvimento de software é focada na construção de sistemas 
-        robustos e arquiteturas escaláveis. Com uma base sólida em lógica de programação e 
-        desenvolvimento FullStack, tenho experiência prática no ciclo completo de aplicações 
-        do front-end ao back-end utilizando tecnologias como Next.js, TypeScript e C#.
+        Sempre fui movida pela curiosidade de entender como a tecnologia funciona por dentro. 
+        Minha jornada começou em 2022 no curso Técnico de Mecatrônica, onde escrevi minhas primeiras 
+        linhas de código. O que era curiosidade virou objetivo: em 2024, ingressei em Análise e 
+        Desenvolvimento de Sistemas para mergulhar de cabeça na engenharia de software. Em 2025, minha 
+        primeira oportunidade profissional confirmou minha paixão por construir soluções completas como 
+        Desenvolvedora FullStack
         </p>
       </motion.div>
 

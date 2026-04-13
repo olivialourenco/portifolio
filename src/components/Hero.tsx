@@ -27,16 +27,14 @@ export function Hero() {
           </p>
 
           <h1 className="max-w-4xl text-4xl font-semibold leading-tight tracking-tight text-foreground md:text-6xl">
-            Interfaces sóbrias, sistemas robustos e performance como requisito.
+          Desenvolvendo aplicações modernas enquanto exploro as infinitas possibilidades do FullStack.
           </h1>
 
           <p className="max-w-2xl text-base leading-relaxed text-muted md:text-lg">
-            Sou a Olívia Lourenço, em dezembro de 2025 me formei em Análise e Desenvolvimento de Sistemas 
-            pela Faculade SENAI de Tecnologia Mecatrônica, sou
-            uma Desenvolvedora FullStack de 23 anos e
-            moro em São Bernardo do Campo - SP. Minha jornada é movida pela
-            curiosidade técnica e pelo desejo de construir soluções que unam
-            arquitetura limpa a uma experiência de usuário impecável.
+          Sou a Olívia, uma desenvolvedora de 23 anos apaixonada por criar o que existe 
+          entre o código e a experiência do usuário. Recém-formada em ADS pela Faculdade SENAI, utilizo 
+          minha jornada na tecnologia para desenvolver projetos que equilibram robustez no back-end e 
+          leveza no front-end. Atualmente, construindo o futuro da web em São Bernardo do Campo.
           </p>
 
           <div className="flex flex-wrap items-center gap-3 pt-2">
