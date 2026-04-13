@@ -34,7 +34,11 @@ export function Hero() {
           Sou a Olívia, uma desenvolvedora de 23 anos apaixonada por criar o que existe 
           entre o código e a experiência do usuário. Recém-formada em ADS pela Faculdade SENAI, utilizo 
           minha jornada na tecnologia para desenvolver projetos que equilibram robustez no back-end e 
-          leveza no front-end. Atualmente, construindo o futuro da web em São Bernardo do Campo.
+          leveza no front-end.
+          </p>
+
+          <p className="text-muted md:text-lg mt-4">
+            São Bernardo do Campo - SP
           </p>
 
           <div className="flex flex-wrap items-center gap-3 pt-2">
