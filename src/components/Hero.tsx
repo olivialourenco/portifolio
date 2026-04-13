@@ -30,7 +30,7 @@ export function Hero() {
           Desenvolvendo aplicações modernas enquanto exploro as infinitas possibilidades do FullStack.
           </h1>
 
-          <p className="max-w-2xl text-base leading-relaxed text-muted md:text-lg">
+          <p className="max-w-2xl text-sm leading-relaxed text-muted md:text-base">
           Sou a Olívia, uma desenvolvedora de 23 anos apaixonada por criar o que existe 
           entre o código e a experiência do usuário. Recém-formada em ADS pela Faculdade SENAI, utilizo 
           minha jornada na tecnologia para desenvolver projetos que equilibram robustez no back-end e 
