@@ -24,7 +24,7 @@ export function Navbar() {
           href="#inicio"
           className="font-mono text-xs uppercase tracking-[0.22em] text-muted transition-colors hover:text-foreground"
         >
-          Dev.FullStack
+          Olívia Lourenço
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex">
